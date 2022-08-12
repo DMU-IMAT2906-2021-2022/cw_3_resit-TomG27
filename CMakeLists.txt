@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 
-add_executable("${PROJECT_NAME}" "Main.cpp" )
+add_executable("${PROJECT_NAME}" "Main.cpp" "functions.h" "functions.cpp" "splitFile.h" "splitFile.cpp")
 
 
 
